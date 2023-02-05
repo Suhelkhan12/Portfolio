@@ -1,0 +1,50 @@
+/* .about__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.about__img{
+    width: 200px;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .about__description{
+    margin-bottom: var(--mb-2-5);
+    text-align: center;
+  }
+  
+  .about__info{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+  }
+  
+  .about__info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+  }
+  
+  .about__info-name{
+    font-size: var(--smaller-font-size);
+  }
+  
+  .about__info-title ,
+  .about__info-name{
+    display: block;
+    text-align: center;
+  }
+  
+  .about__buttons{
+   display: flex;
+   justify-content: center;
+  }
+  
+  .extra_curricular{
+   font-weight: 600;
+  }

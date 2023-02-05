@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- css of site -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="qualification.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mediaQuerries.css">
+    <link rel="stylesheet" href="background.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./swiper/splide.min.css">
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+
+
+    <!-- header -->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Suhel</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="skills.html" class="nav__link">
+                            <i class="uil uil-visual-studio nav__icon"></i> Skills
+                        </a>
+                    </li>
+
+                    <!-- <li class="nav__item">
+                            <a href="#qualifications" class="nav__link">
+                                <i class="uil uil-graduation-cap nav__icon"></i> Qualification
+                            </a>
+                        </li> -->
+
+                    <li class="nav__item">
+                        <a href="projects.html" class="nav__link highlight__project" target="">
+                            <i class="uil uil-briefcase nav__icon"></i> Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+
+
+            <div class="nav__btns">
+
+                <!-- theme change button -->
+                <!-- <i class="uil uil-moon change-theme" id="theme-button"></i> -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main content -->
+    <main class="main">
+
+        <!-- Home design -->
+
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/suhel-khan-925aa222a/" target="_blank"
+                            class="home__social-icon" id="linkedin">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/Suhelkhan12" target="_blank" class="home__social-icon" id="github">
+                            <i class="uil uil-github"></i>
+
+                        </a>
+
+                        <a href="https://leetcode.com/Suhelll/" target="_blank" class="home__social-icon" id="leetcode">
+                            <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+                        </a>
+
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 253" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x='0' y='1' xlink:href="images/Suhel.jpg" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi There!<span class="hello__emoji"> &#128587;</span>, I'm
+                            Suhel</span>
+                        </h1>
+                        <h3 class="home__subtitle">A <span class="highlight__text">Developer</span>
+                        </h3>
+                        <p class="home__description">
+                            Let's build something great <span class="highlight__text">Together.</span>
+                        </p>
+
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+
+                        </a>
+                    </div>
+                </div>
+
+                <!--  scroll down button -->
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- about sectoin -->
+
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="images/about.png" alt="error" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">I'm <span class="highlight__text">Suhel Khan</span> , a computer
+                        science student at Panjab University,
+                        Chandigarh. Currently I'm pursuing <span class="highlight__text">Master's in Computer
+                            Application
+
+                        </span> there. <br> <span class="highlight__text">I'm a coder at day and a Gamer at
+                            night.</span> <br>
+                        I have a good understanding of<span class="highlight__text"> C++/Java/JavaScript, Data
+                            structures and Algorithms.
+                        </span>.
+                        <br>
+                        Apart from coding and technical stuff I am also a: <br>
+                        <span class="extra_curricular">
+                            Defense aspirant, a football player and a guy who loves to watch animes.
+                        </span>
+
+
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">completed <br>
+                                projects.</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">300+</span>
+                            <span class="about__info-name">coding <br>
+                                questions solved.</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a href="images/cds.pdf" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button__icon "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- contact me -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+91-9588321151</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">Suhel7822@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Jind , Haryana , India.</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <form class="contact__from grid">
+                    <div class="contact__inputs grid">
+
+                        <div class="contact__content">
+
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" name="Name" class="contact__input" required>
+                        </div>
+
+                        <div class="contact__content">
+
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" name="Email" class="contact__input" required>
+                        </div>
+
+                        <div class="contact__content">
+
+                            <label for="" class="contact__label">Message</label>
+                            <!-- <input type="textarea" class="contact__input"> -->
+
+                            <textarea name="Message" id="message-client" cols="30" rows="5"
+                                class="contact__input"></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#contact" class="button button--flex send">
+                            Send
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+
+                        <span class="send-message">Message sent!</span>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Suhel Khan</h1>
+                </div>
+
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/suhel-khan-925aa222a/" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/Suhelkhan12" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
+
+                    <a href="https://leetcode.com/Suhelll/" target="_blank" class="footer__social" id="leetcode">
+                        <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169 All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+    <!--java scripts  -->
+    <!-- for hellow emojie -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+    <!-- swiper -->
+    <script src="./swiper/splide.min.js"></script>
+
+    <!--click events and other things  -->
+    <script src="portfolio.js">
+
+
+    </script>
+</body>
+
+</html>

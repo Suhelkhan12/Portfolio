@@ -1,0 +1,62 @@
+ <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">All of my projects in every domain</span>
+
+                <div class="projects__container container swiper mySwiper">
+
+                    <div class="swiper-wrapper">
+
+                        <!-- project 1 -->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="./images/university_project.png" alt="error" class="project__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Modern University Website</h3>
+                                <p class="projects__description">University website adaptable to all devices with UI
+                                    components and interactions. </p>
+                                <a href="https://stellar-queijadas-18cdcb.netlify.app/" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- project 2 -->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="./images/university_project.png" alt="error" class="project__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Modern University Website</h3>
+                                <p class="projects__description">University website adaptable to all devices with UI
+                                    components and interactions. </p>
+                                <a href="https://stellar-queijadas-18cdcb.netlify.app/" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- project 3 -->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="./images/university_project.png" alt="error" class="project__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Modern University Website</h3>
+                                <p class="projects__description">University website adaptable to all devices with UI
+                                    components and interactions. </p>
+                                <a href="https://stellar-queijadas-18cdcb.netlify.app/" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </section>
